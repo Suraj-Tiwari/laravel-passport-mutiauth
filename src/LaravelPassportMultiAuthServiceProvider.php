@@ -1,6 +1,6 @@
 <?php
 
-namespace Jsdecena\LPM;
+namespace surajtiwari\LPM;
 
 use Illuminate\Support\ServiceProvider;
 
