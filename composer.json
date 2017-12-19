@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jsdecena\\LPM\\": "src/"
+      "Suraj-Tiwari\\LPM\\": "src/"
     }
   },
   "require-dev": {
