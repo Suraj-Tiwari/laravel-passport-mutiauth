@@ -1,6 +1,6 @@
 <?php
 
-namespace Jsdecena\LPM\Middleware;
+namespace surajtiwari\LPM\Middleware;
 
 //Modified my Suraj-PC on 19-Dec-2017
 
