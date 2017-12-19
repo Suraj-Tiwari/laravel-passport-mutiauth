@@ -1,5 +1,5 @@
 {
-  "name": "Suraj-Tiwari/laravel-passport-mutiauth",
+  "name": "surajtiwari/laravel-passport-mutiauth",
   "description": "Simple laravel passport multiple user authentication",
   "keywords": ["laravel", "authentication", "auth", "passport", "token", "laravel5", "framework", "package", "user", "multi"],
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Suraj-Tiwari\\LPM\\": "src/"
+      "surajtiwari\\LPM\\": "src/"
     }
   },
   "require-dev": {
