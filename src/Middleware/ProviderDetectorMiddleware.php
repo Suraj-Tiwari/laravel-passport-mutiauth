@@ -22,11 +22,11 @@ class ProviderDetectorMiddleware
         if($dmt){
             $request['provider'] = 'users';
             $request['verified'] = $dmt->email_verified;
-            if($dmt->user_type == 1){
-                $request['url'] = 'api/matrimony/';
-            }else{
+            //if($dmt->user_type == 1){
+            //    $request['url'] = 'api/matrimony/';
+            //}else{
                 $request['url'] = 'api/dating/';
-            }
+            //}
         }else{
             $ar = ArrangmentUser::where('email',$request->username)->first();
             if($ar){
