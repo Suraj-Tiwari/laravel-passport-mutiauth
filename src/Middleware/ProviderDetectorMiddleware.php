@@ -22,6 +22,7 @@ class ProviderDetectorMiddleware
         if($dmt){
             $request['provider'] = 'users';
             $request['verified'] = $dmt->email_verified;
+            $request['deactivated'] = $dmt->deactivated;
             //if($dmt->user_type == 1){
             //    $request['url'] = 'api/matrimony/';
             //}else{
